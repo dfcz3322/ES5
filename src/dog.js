@@ -17,7 +17,7 @@ Dog.prototype.assignPartner = function () {
     this.getHasPartner() = true;
 }
 Dog.prototype.removePartner = function () {
-    this.getHasPartner() = false;
+    this.__hasPartner() = false;
 }
 
 
