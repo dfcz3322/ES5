@@ -35,9 +35,9 @@ Employee.prototype.removeDogByName = function (dogName) {
     if (index !== -1) {
         allDogs.splice(index, 1);
     }
-    Employee.prototype.getCategory = function () {
-        return this.__category;
-    }
+}
+Employee.prototype.getCategory = function () {
+    return this.__category;
 }
 
 Employee.prototype.setCategory = function (newCategory) {

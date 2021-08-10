@@ -13,11 +13,11 @@ Dog.prototype.getHasPartner = function () {
     return this.__hasPartner;
 }
 
-Dog.prototype.__assignPartner = function () {
+Dog.prototype.assignPartner = function () {
     this.getHasPartner() = true;
 }
-Dog.prototype.__removePartner = function () {
-    this.getHasPartner() = false;
+Dog.prototype.removePartner = function () {
+    this.__hasPartner() = false;
 }
 
 
